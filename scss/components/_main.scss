@@ -75,6 +75,7 @@ header {
       border-top: 1px solid $white;
     }
     &:hover a{
+      text-decoration: underline;
       color: $purple;
     }
   } // li
@@ -85,10 +86,12 @@ header {
   color: $white;
   height: 40px;
   width: 40px;
+
   /* i{
     border: 1px solid $white;
     padding: .5em;
   }
+
 */  span{
     @include hide-text;
   }
